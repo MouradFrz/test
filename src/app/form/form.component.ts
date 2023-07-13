@@ -40,6 +40,6 @@ export class FormComponent {
         sum += e;
       }
     });
-    console.log(sum);
+    // console.log(sum);
   }
 }
