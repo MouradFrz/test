@@ -1,0 +1,5 @@
+<p *ngIf="">I am the form component</p>
+<button (click)="echoNumbersResult()">Execute</button>
+<ng-container *ngFor="let user of list">
+    <p *ngIf="user.available">{{ user.name }}</p>
+</ng-container>
